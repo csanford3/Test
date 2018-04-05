@@ -1,5 +1,7 @@
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -11,6 +13,15 @@ import java.util.Set;
  * 
  */
 public class Graph<E> implements GraphADT<E> {
+	
+	class Graphnode<T> {
+	    // *** fields ***
+	    private T data;
+	    private List<Graphnode<T>> successors = new ArrayList<Graphnode<T>>();
+	 
+	    // *** methods ***
+	    
+	}
     
     /**
      * Instance variables and constructors
@@ -21,6 +32,10 @@ public class Graph<E> implements GraphADT<E> {
      */
     @Override
     public E addVertex(E vertex) {
+    	
+    	//LOOK I MADE A CHANBGEDFHSFGJSGJFSGJFGS!!!!!!
+    	
+		return null;
         
     }
 
@@ -29,6 +44,7 @@ public class Graph<E> implements GraphADT<E> {
      */
     @Override
     public E removeVertex(E vertex) {
+		return null;
         
     }
 
